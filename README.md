@@ -62,7 +62,7 @@ The system is fully modular, from data preprocessing and model training to evalu
 
 ---
 
-## Imp Note
+## 📌 Imp Note
 - This project is a prototype and not yet production-ready. Some elements like holiday handling, future feature simulation, and lag generation use simplified assumptions for demonstration. With proper data pipelines and real-time feature forecasting, it can be scaled for production deployment.
 
 ---
