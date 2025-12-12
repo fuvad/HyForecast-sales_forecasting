@@ -47,11 +47,11 @@ The system is fully modular, from data preprocessing and model training to evalu
 ---
 
 ## 📊 Example Workflow
-1. User selects number of pages to load (1 page = 20 movies).  
-2. The app checks if the movies exist in the database.  
-3. If not, it fetches new ones and saves them.  
-4. A similarity model is built and cached.  
-5. User searches for a movie -> app shows similar ones instantly.
+1. User selects the store-dept combination from the dropdown.
+2. The app foredasts for the given combination and gives historical performance and future forecast.  
+3. Historical performance wiil provide a comparison between hybrid vs prophet vs actual along with evaluation metrics
+4. Future forcast will provide forecast horizon(in weeks) and forecast based on that 
+5. Users can download the metrics and the forecast as csv
 
 ---
 
